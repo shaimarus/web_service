@@ -16,6 +16,7 @@ def hello_world():
 def hello_world2(nanan):
     return 'Hello, World! sdfsdfsd 1111 sdfs2 222 333'  + str(nanan)
 
+
 @app.route('/mnt2/<nanan>')
 def hello_world3(nanan):
     return str(float(nanan)+float(nanan))
